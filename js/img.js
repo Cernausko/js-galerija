@@ -17,7 +17,7 @@ function createImages(container) {
   for (let i = 1; i <= 12; i++) {
     const li = document.createElement("li");
     const img = document.createElement("img");
-    img.src = `../images/img${i}.jpg`;
+    img.src = `img${i}.jpg`;
     img.alt = `nuotrauka ${i}`;
     li.appendChild(img);
     container.appendChild(li);
